@@ -1,0 +1,7 @@
+This is a quick hack that isn't perfect but gets the job done for now.
+
+The easiest (but probably not least painful) way to use it is to use Automator to add a service in Automator that uses "Get Selected Finder Items" and then runs the script.
+This will be changed sometime...
+
+Also, the script works, but is unfinished so it doesn't support files with spaces in the filename.
+

@@ -1,0 +1,9 @@
+#!/bin/bash
+
+cp $1 /Users/luke/Dropbox/Public
+
+filename=`basename "$1"`
+
+dbuser='http://dl.dropbox.com/u/1611613/'
+
+echo -n $dbuser$filename | pbcopy
